@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <style>
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <style>
+        #button {
+            width: 9em;
+            border: 4px solid rgb(2, 0, 14);
+            background: #ffe;
+            border-radius: 5px;
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            line-height: 2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            color: blue;
+            background: #eff;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            
+    </style>
+</head>
+
+<body style="background-color:gray ;" >
+<h1>
+</h1>
+    <h1  style="color:white;">
+        <center> Fencing Board Control </center>
+    </h1>
+
+    <table style="width:105%" ;class: "center">
+        <center>
+            <tr>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <center><input type="button" value="Forward" name="forward"
+                            style="color:white ; font-size: 30px; background: rgb(75, 67, 121) ; border-radius: 30px;">
+                    </center>
+                </td>
+                <td> </td>
+            </tr>
+            </div>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+            <br>
+
+            <tr>
+                <td>
+                    <center> <input type="button" value="Left" name="left"
+                            style="color:white ; font-size: 30px; background: rgb(75, 67, 121); border-radius: 30px;">
+                    </center>
+                </td>
+
+                <td>
+                    <center><input type="button" value="Stop" name="stop"
+                            style="color:white ; font-size: 30px; background: rgb(75, 67, 121) ; border-radius: 30px;">
+                    </center>
+                </td>
+
+                <td>
+                    <center><input type="button" value="Right" name="right"
+                            style="color:white ; font-size:30px; background: rgb(75, 67, 121) ; border-radius: 30px;">
+                    </center>
+                </td>
+            </tr>
+            </div>
+
+            <br>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <center><input type="button" value="Backward" name="backward"
+                            style="color:white ; font-size: 30px; background: rgb(75, 67, 121) ; border-radius: 30px;">
+                    </center>
+                <td>
+                </td>
+            </tr>
+        </center>
+    </table>
+    <tr>
+        <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "de34030d-75ef-43d0-af27-cb02ec280255", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "9b6b3823-5059-48a0-b897-36040457b2d0", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+
+</html>
